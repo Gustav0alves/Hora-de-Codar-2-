@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+    <html lang = "pt-br"> 
+    <head>  
+            <meta charset = "UTF-8"> 
+            <meta http-equiv = "X-UA-Compatible" content = "IE = edge"> 
+            <meta name = "viewpoint" content = "width=device, initial - scale = 1.0"> 
+            <title> Hora de Codar 2 - A vingança do Coder </title>
+
+            <script type = "text/JavaScript"> 
+
+            /* 15 - Escreva um programa para ler o ano de nascimento de uma pessoa e escrever uma mensagem que diga se ela poderá ou não votar este ano (não é necessário considerar o mês em que ela nsaceu). */
+            
+            var birthday = parseInt (prompt("Informe o ano do seu nascimento."));
+            var ano = 2006;
+
+            if (birthday < ano || birthday == ano) {
+
+            alert ("PARABÉNS! Este ano você já pode votar para às próximas eleições do país.");
+            console.log ("PARABÉNS! Este ano você já pode votar para às próximas eleições do país.");
+            document.write ("PARABÉNS! Este ano você já pode votar para às próximas eleições do país.");
+
+            } else if (birthday > ano) { 
+
+            alert ("Infelizmente você ainda não pode votar para as eleições do país.");
+            console.log ("Infelizmente você ainda não pode votar para as eleições do país.");
+            document.write ("Infelizmente você ainda não pode votar para as eleições do país.");
+            }
+            </script>
+    </head>
+    <body>
+
+    </body>
+</html>

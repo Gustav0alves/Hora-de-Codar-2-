@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+    <html lang = "pt-br"> 
+    <head>  
+            <meta charset = "UTF-8"> 
+            <meta http-equiv = "X-UA-Compatible" content = "IE = edge"> 
+            <meta name = "viewpoint" content = "width=device, initial - scale = 1.0"> 
+            <title> Hora de Codar 2 - A vingança do Coder </title> 
+
+            <script type = "text/JavaScript"> 
+
+                /* 4. Faça um programa que leia 3 valores (considere que não serão informados valores iguais) e escrever a soma dos 2 maiores. */ 
+
+                    var number1 = parseFloat (prompt("Informe um valor."));
+                    var number2 = parseFloat (prompt("Informe outro valor."));
+                    var number3 = parseFloat (prompt("Agora informe o último valor."));
+
+                    if (number1 > number2 && number2 > number3) {
+
+                    document.write (`Os maiores números digitados foram ${number1} e ${number2}. A soma deles é de ${number1 + number2}.`);
+                    console.log (`Os maiores números digitados foram ${number1} e ${number2}. A soma deles é de ${number1 + number2}.`);
+
+                    } else if (number1 > number2 && number3 > number2) {
+
+                    document.write (`Os maiores números digitados foram ${number1} e ${number3}. A soma deles é de ${number1 + number3}.`);
+                    console.log (`Os maiores números digitados foram ${number1} e ${number3}. A soma deles é de ${number1 + number3}.`);
+
+                    } else {
+
+                    document.write (`Os maiores números digitados foram ${number2} e ${number3}. A soma deles é de ${number2 + number3}.`);
+                    console.log  (`Os maiores números digitados foram ${number2} e ${number3}. A soma deles é de ${number2 + number3}.`);
+
+                    }
+
+
+            </script>
+
+    </head>
+    <body>
+
+    </body>
+    </html>

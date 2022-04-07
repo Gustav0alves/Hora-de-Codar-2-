@@ -1,0 +1,56 @@
+<!DOCTYPE html> 
+    <html lang = "pt-br"> 
+    <head>  
+            <meta charset = "UTF-8"> 
+            <meta http-equiv = "X-UA-Compatible" content = "IE = edge"> 
+            <meta name = "viewpoint" content = "width=device, initial - scale = 1.0"> 
+            <title> Hora de Codar 2 - A vingança do Coder </title>
+
+            <script type = "text/JavaScript"> 
+
+            /* 23 - Faça um programa em que o usuário informe 20 valores e no final, escreva o maior e o menor valor lido. */ 
+
+            var resMenor = 0;
+		    var resMaior = 0;
+		
+		    for (var i = 0; i < 20; i++) {
+
+			var numDigitado = parseInt(prompt("informe um numero"));
+			
+			if(i == 0){
+
+			var menor = numDigitado;
+			var maior = numDigitado;
+
+			}
+			
+			if (numDigitado < menor) {
+
+			menor = numDigitado;
+			
+			} else {
+
+			if (numDigitado > maior) {
+
+			maior = numDigitado;
+
+			}
+
+			}
+		
+		    resMaior = maior;
+		    resMenor = menor;
+
+
+		    }
+
+
+		    prompt(resMaior + " " + resMenor);  
+
+            </script> 
+        
+        </head> 
+        <body>
+
+        </body>
+    </html> 

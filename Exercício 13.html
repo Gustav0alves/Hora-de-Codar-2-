@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+    <html lang = "pt-br"> 
+    <head>  
+            <meta charset = "UTF-8"> 
+            <meta http-equiv = "X-UA-Compatible" content = "IE = edge"> 
+            <meta name = "viewpoint" content = "width=device, initial - scale = 1.0"> 
+            <title> Hora de Codar 2 - A vingança do Coder </title>
+
+            <script type = "text/JavaScript"> 
+
+            /* 13 - Escreva um programa para ler as notas das 4 avaliações de um aluno no semestre,calcular e escrever a média do semestre e a seguinte mensagem: PARABÉNS! Você foi aprovado! somente se o aluno foi aprovado (considere 6.0 a média mínima para aprovação e 4 notas informadas). */ 
+            
+            var nota1 = parseInt (prompt(" De 1 à 10 informe sua primeira nota do semestre."));
+            var nota2 = parseInt (prompt("De 1 à 10 informe a sua segunda nota do semestre."));
+            var nota3 = parseInt (prompt("De 1 à 10 informe a sua terceira nota do semestre."));
+            var nota4 = parseInt (prompt("Agora de 1 à 10 novamente, informe a sua última nota do semestre."));
+
+            var notasemestral = (nota1 + nota2 + nota3 + nota4) / 4; 
+
+            if (notasemestral > 6.0) {
+
+            alert ("PARABÉNS! Você foi aprovado!");
+            document.write ("PARABÉNS! Você foi aprovado!");
+            console.log ("PARABÉNS! Você foi aprovado!");
+
+            } else if (notasemestral < 6.0) { 
+
+            alert ("Infelizmente, você foi reprovado!");
+            console.log ("Infelizmente, você foi reprovado!");
+            document.write ("Infelizmente, você foi reprovado!");
+
+            }
+
+           </script> 
+    </head>
+    <body>
+
+    </body>
+</html>

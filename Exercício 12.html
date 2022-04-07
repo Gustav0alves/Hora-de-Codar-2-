@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+    <html lang = "pt-br"> 
+    <head>  
+            <meta charset = "UTF-8"> 
+            <meta http-equiv = "X-UA-Compatible" content = "IE = edge"> 
+            <meta name = "viewpoint" content = "width=device, initial - scale = 1.0"> 
+            <title> Hora de Codar 2 - A vingança do Coder </title>
+
+            <script type = "text/JavaScript"> 
+
+            /* 12 - A equipe Mercedes deseja calcular o número minimo de litros que deverá colocar no tanque de seu carro para que ele possa percorrer um determinado número de voltas até o primeiro reabastecimento. 
+
+                    Escreva um programa que leia o comprimento da pista (em metros), o número total de voltas a serem percorridas no grande prêmio, o número de reabastecimento desejados e o consumo de combustível do carro (em Km/L). 
+
+                    O programa deve calcular e exibir o número mínimo de litros necessário para percorrer até o primeiro reabastecimento.
+                    Observação: considere que a quantidade de voltas entre os reabastecimentos é o mesmo, mas não poderá ser maior ou igual a 2. 
+
+                    O usuário deve informar a quantidade de quilômetros total do circuito e a quantidade de litros que o carro pode possuir. */
+
+                var comprimento_pista = parseFloat(prompt("Digite o comprimento da pista em metros."));
+                var total_voltas = parseFloat(prompt("Digite o número total de voltas da pista."));
+                var reabastecimento = parseFloat(prompt("Digite o número de reabastecimentos desejáveis."));
+                var combustivel_gasto = parseFloat(prompt("Digite o número do consumo de combustivel (KM/L)."));
+                var combustivel_total = parseFloat(prompt("Digite a quantidade de litros que o tanque de combustivel pode possuir."));
+
+                var comprimento_total = (comprimento_pista /1000) * total_voltas;
+                var comprimento_reabastecimento = comprimento_total /reabastecimento;
+                var reabastecimento_min_combustivel = comprimento_reabastecimento /combustivel_gasto;]
+
+                document.write( reabastecimento_min_combustivel);
+                
+            </script> 
+    </head>
+    <body> 
+    
+    </body>
+</html>        
